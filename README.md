@@ -11,7 +11,7 @@ Welcome to my Rust CLI project with SQLite integration. This project showcases a
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
-2. [Getting Started](#getting-started)
+2. [Features](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 3. [Usage](#usage)
@@ -22,11 +22,13 @@ Welcome to my Rust CLI project with SQLite integration. This project showcases a
 8. [License](#license)
 
 
+## Project Structure
 The project is organized as follows:
 
 - **`cli_tool/`**: Contains the Cargo.toml file used to build, compile and run the rust tool.
 - **`cli_tool/src/`**: Contains the Rust source code and the database we create
 - **`.github/workflows/`**: Includes the GitHub Actions workflow for testing, building, and linting this project to ensure everything works
+
 
 
 
