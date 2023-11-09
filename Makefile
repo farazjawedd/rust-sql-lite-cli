@@ -32,7 +32,3 @@ generate_and_push:
 	else \
 		echo "No changes to commit. Skipping commit and push."; \
 	fi
-
-
-
-cp target/release/my_project ../executables/
