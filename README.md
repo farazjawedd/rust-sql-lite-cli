@@ -1,3 +1,5 @@
+[![Rust CI/CD](https://github.com/farazjawedd/rust-sql-lite-cli/actions/workflows/cicd.yml/badge.svg)](https://github.com/farazjawedd/rust-sql-lite-cli/actions/workflows/cicd.yml)
+
 # Rust CLI Binary with SQLite
 
 ## Overview
