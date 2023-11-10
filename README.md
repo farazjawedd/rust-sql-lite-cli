@@ -1,7 +1,3 @@
-## SQLite Lab
-
-### Lab:
-
 # Rust CLI Binary with SQLite
 
 ## Overview
