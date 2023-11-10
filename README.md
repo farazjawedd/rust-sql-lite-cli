@@ -34,10 +34,12 @@ The project is organized as follows:
    cargo run insert <name> <age>
 ``````
 
+<img width="843" alt="Screenshot 2023-11-09 at 7 57 43 PM" src="https://github.com/farazjawedd/rust-sql-lite-cli/assets/101464414/ca476569-a6c6-4176-b4e8-0f6066f517dc">
+
 ### To read all persons:
 ``````
    cargo run read
-``````
+
 ### To update a person's age:
 ``````
    cargo run update <name> <new-age>
