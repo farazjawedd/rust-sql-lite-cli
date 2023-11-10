@@ -32,18 +32,16 @@ The project is organized as follows:
 ## Features
 
 ### To insert a person:
-cargo run insert <name> <age>
-
-### Replace `<name>` with the name of the person and `<age>` with the age of the person.
+`cargo run insert <name> <age>`
 
 ### To read all persons:
-cargo run read
+`cargo run read`
 
 ### To update a person's age:
-cargo run update <name> <new-age>
+`cargo run update <name> <new-age>`
 
 ### To delete a person's entry:
-cargo run delete <name>
+`cargo run delete <name>`
 
 
 ##### Replace `<name>` with the name of the person and `<new-age>` with the 
