@@ -12,8 +12,6 @@ Welcome to my Rust CLI project with SQLite integration. This project showcases a
 
 1. [Project Structure](#project-structure)
 2. [Features](#features)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
 3. [Usage](#usage)
 4. [GitHub Copilot Integration](#github-copilot-integration)
 5. [GitHub Actions Workflow](#github-actions-workflow)
@@ -32,19 +30,24 @@ The project is organized as follows:
 ## Features
 
 ### To insert a person:
+``````
    cargo run insert <name> <age>
+``````
 
 ### To read all persons:
+``````
    cargo run read
-
+``````
 ### To update a person's age:
+``````
    cargo run update <name> <new-age>
-
+``````
 ### To delete a person's entry:
 ``````
    cargo run delete <name>
 ``````
-##### Replace `<name>` with the name of the person and `<new-age>` with the 
+##### Replace `<name>` with the name of the person and `<new-age>` with the actual name and age you want to put. 
+
 
 
 
