@@ -41,9 +41,9 @@ The project is organized as follows:
    cargo run update <name> <new-age>
 
 ### To delete a person's entry:
+``````
    cargo run delete <name>
-
-
+``````
 ##### Replace `<name>` with the name of the person and `<new-age>` with the 
 
 
