@@ -11,7 +11,7 @@ Welcome to my Rust CLI project with SQLite integration. This project showcases a
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
-2. [Features](#getting-started)
+2. [Features](#features)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 3. [Usage](#usage)
@@ -29,7 +29,24 @@ The project is organized as follows:
 - **`cli_tool/src/`**: Contains the Rust source code and the database we create
 - **`.github/workflows/`**: Includes the GitHub Actions workflow for testing, building, and linting this project to ensure everything works
 
+## Features
 
+### To insert a person:
+cargo run insert <name> <age>
+
+### Replace `<name>` with the name of the person and `<age>` with the age of the person.
+
+### To read all persons:
+cargo run read
+
+### To update a person's age:
+cargo run update <name> <new-age>
+
+### To delete a person's entry:
+cargo run delete <name>
+
+
+##### Replace `<name>` with the name of the person and `<new-age>` with the 
 
 
 
